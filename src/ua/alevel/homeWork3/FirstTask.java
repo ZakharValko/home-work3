@@ -3,7 +3,7 @@ package ua.alevel.homeWork3;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class HomeWork3 {
+public class FirstTask {
 
     public static void main(String[] args) {
 
