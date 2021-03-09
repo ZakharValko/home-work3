@@ -8,11 +8,12 @@ public class FirstTask {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        System.out.println("Введите текст ниже:");
         String s = sc.nextLine();
 
         // Убираем пробелы из строки
         String noSpaces = s.replace(" ", "");
-        System.out.println(noSpaces);
+        //System.out.println(noSpaces);
 
         // Пишем строку без больших букв
         String lowNoSpace = noSpaces.toLowerCase(Locale.ROOT);
